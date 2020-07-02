@@ -1,0 +1,48 @@
+.topnav a {
+    float: right;
+    padding: 10px 30px;
+    font-size: 16px;
+    display: block;
+}
+
+.h_color {
+    width: 100%;
+    height: 250px;
+    background-color: #EEEDE8;
+}
+
+.hero{
+    position:relative;
+    text-align: center;
+    top: -150;
+}
+
+.workstitle{
+    text-align: center;
+}
+
+.works{
+    display: flex;
+}
+
+.usde{
+    height: 550;
+    width: 5519;
+    border: 15px black;
+}
+
+.bottomnav {
+    bottom:0;
+    left: 0;
+    font-size: 12px;
+    padding: 10px 30px;
+    border-width: 30px;
+}
+
+.email {
+   padding: 10px 30px;
+}
+
+.linktedin {
+   padding: 10px 10px;
+}
