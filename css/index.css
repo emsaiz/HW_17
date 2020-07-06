@@ -1,3 +1,23 @@
+body {
+    font-family: "PT sans";
+    }
+
+h1 {
+    font-family: "PT sans-serif"; 
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 15px;
+    font-family: "PT sans";
+    font-weight: 100;
+}
+
+
 .topnav a {
     float: right;
     padding: 10px 30px;
@@ -7,36 +27,129 @@
 
 .h_color {
     width: 100%;
-    height: 250px;
+    height: 300px;
     background-color: #EEEDE8;
 }
 
 .hero{
     position:relative;
     text-align: center;
-    top: -150;
+    top: -190;
 }
 
 .workstitle{
     text-align: center;
+    line-height: 30px;
 }
 
 .works{
     display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
 }
 
-.usde{
-    height: 550;
-    width: 5519;
-    border: 15px black;
+.column1, .column2, .column3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #87ABBC;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    height: 350px;
+}
+
+.toolsSkills{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+}
+
+.column4, .column5 { 
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 10px;
+    width: 450px;
+    height: 275px;
+    text-indent: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+}
+
+li {
+   display: flex;
+   text-indent: 10px; 
+   padding: 8px;
+}
+
+.container, .mountainImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+}
+
+.aboutmeBox { 
+    background-color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 25px;
+    padding: 20px;
+    width: 900px;
+    height: 225px;
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.wave{
+    width: 125px;
+    height: 125px;
+    padding: 40px;
+}
+
+.text {
+    display: block;
+}
+
+.contactInfo {
+    width: 100%;
+    height: 175px;
+    background-color: #EEEDE8;
+    display: block;
+    text-align: center;
+}
+
+.contactText {
+    display: block;
+    align-content: center;
+    padding: 19.5px;
+}
+
+.footer{
+    display: flex;
 }
 
 .bottomnav {
+    display: flex;
+    align-items: center;
     bottom:0;
     left: 0;
     font-size: 12px;
     padding: 10px 30px;
-    border-width: 30px;
 }
 
 .email {
