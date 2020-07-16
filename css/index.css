@@ -17,6 +17,13 @@ h3 {
     font-weight: 100;
 }
 
+label, #toggle {
+    float:right;
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+}
 
 .topnav a {
     float: right;
@@ -183,3 +190,69 @@ li {
 .linktedin {
    padding: 10px 10px;
 }
+
+
+@media screen and (max-width: 1130px){
+    h1 {
+        font-size: 30px;
+    }
+    
+    h2 {
+       font-size: 15px;
+    }
+    
+    .works {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .toolsSkills {
+        width: 100%;
+        flex-direction: column;
+        margin: 0px;
+    }
+    
+    .aboutmeBox {
+        height: auto;
+        width: auto;
+        justify-content: center;
+        margin: 15px;
+        flex-direction: row;
+    }
+    
+    .mountainImage {
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    label {
+        display: block;
+        cursor: pointer;
+        width: 26px;
+    }
+    
+    .topnav {
+        display: block;
+        text-align: center;
+        display: none;
+    }
+    
+    topnav a {
+        display: block;
+        margin: 0;
+    }
+    
+    #toggle:checked +.topnav {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+
+
+
+
+
+
+
